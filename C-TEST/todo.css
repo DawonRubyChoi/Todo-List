@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    
+}
+
+.main-cont{
+    padding: 50px;
+    width: 500px;
+    height: 600px;
+    border-radius: 6px;
+    background-color: #FFFBD2;
+    font-family: 'Ownglyph_meetme-Rg';
+}
+
+.input-area {
+    text-align: center;
+    margin: 10px;
+}
+
+#date{
+    width:115px;
+    height:30px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Ownglyph_meetme-Rg';
+    text-align: center;
+    padding: 3px;
+    font-size: large;
+}
+
+#todo{
+   width: 270px;
+   height:30px;
+   border: none;
+   border-radius: 3px;
+   font-family: 'Ownglyph_meetme-Rg';
+   font-size: large;
+   margin-right: 10px;
+}
+
+h1{
+    font-family: 'intelone-mono-font-family-regular';
+    text-align: center;
+    margin-bottom : 10px;
+}
+
+#btn{
+    width:30px;
+    height: 30px;
+    font-size: larger;
+    background-color: black;
+    color: #FFFBD2;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+#result-area li {
+    font-size: larger;
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+}
+
+#result-area button {
+    margin-left: auto;
+    border: none;
+    color: solid black;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#result-area input {
+    margin-right: 30px;
+}
+
+#result-area :nth-child(2) {
+    margin-right: 30px;
+}

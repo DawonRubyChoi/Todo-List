@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+    <div class="main-cont">
+        <h1>To do list✏️</h1>
+        <div class="input-area">
+            <input type="date" id="date" required/>
+            <input type="text" id="todo" placeholder=" 할 일 적기..." onkeydown="enter(event)"/>
+            <button type="button" id="btn">+</button>
+        </div>
+        <ul id="result-area">
+        </ul>
+    </div>
+    <script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
